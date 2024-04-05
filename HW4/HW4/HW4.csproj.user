@@ -10,6 +10,9 @@
     <Compile Update="AddPhoneDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="DashboardScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="EditPhoneDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,6 +31,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="AddPhoneDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DashboardScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="EditPhoneDialog.xaml">
